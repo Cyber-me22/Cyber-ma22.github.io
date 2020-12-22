@@ -1,72 +1,60 @@
-/*
- First External CSS Stylesheet
- */
-
-/* Styling for HTML elements */
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-  background: #efeee7;
+body{
+    background-color: rgb(226, 222, 222);
 }
 
-header {
-  background: #333;
+h1{
+    color:teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+h2{
+    color:teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+
 }
 
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
+.summary-image{
+    width: 200px;
+    float: left;
 }
 
-h2 {
-  font-size: 24px;
+.small-image{
+    width: 150px;
+    
 }
 
-a {
-  color: #d21034;
+.navbar-links{
+    float: right;
 }
 
-/* Selecting elements by class */
-.container {
-  width: 1024px;
-  margin: 0 auto;
+.navbar-brand {
+    background-color: teal;
+    padding: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+.row{
+    width: 100%;
+}
+.viz-info{
+    background-color: white;
+    padding: 16px;
+    text-align: justify;
+
+
 }
 
-/* Selecting elements by ID */
-#main-bio,
-#contact-info,
-#bio-image {
-  float: left;
+#content-container{
+    margin-top: 32px
 }
 
-#figure {
-  position: relative;
-}
+#data-table-container{
+    background-color: white;
+    margin-top: 32px
 
-#bio-name {
-  position: absolute;
-  top: 150px;
-  left: 30px;
-}
-
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
-}
-
-#bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
 }
